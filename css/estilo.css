@@ -20,26 +20,32 @@ body{
 }
 
 #cabecalho{
-    padding-top: 25px;
+    padding-top: 30px;
     background: url(../imgs/detalhe-topo.png) no-repeat right top;
     height: 150px;
     border: 1px solid red;
 }
 
-.menu{
+ul{
+    padding: 0;
+    margin: 0;
     list-style-type: none;
+    float: left;
 }
 
 .menu li{
-    background-color: #900C3F;
+    margin-top: 15px;
+    background-color: #b10133;
     float: left;
 }
 
 .menu a {
-    display: block;
-    padding: 14px;
     color: #fff;
     text-decoration: none;
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    line-height: 2.1em;
     background: url(../imgs/divisor.png) repeat-y;
 }
 
@@ -49,8 +55,10 @@ body{
 
 body .menu .atual a{
     background-color: #C70039;
+    color: #fff;
+    cursor: text;
 }
 
 .menu a:hover{
-    color: black;
+    color: #69001d;
 }
