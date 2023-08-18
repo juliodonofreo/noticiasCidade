@@ -71,14 +71,12 @@ body .menu .atual a{
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background-color: green;
 }
 
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
@@ -95,9 +93,28 @@ body .menu .atual a{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background-color: yellow;
 }
 
+/*Caixa */
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imgs/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    padding: 5px;
+    background: #294c71;
+    color: #fff;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
 
 /* rodapé */
 #container-rodape {
