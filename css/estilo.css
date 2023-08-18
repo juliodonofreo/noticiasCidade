@@ -23,7 +23,6 @@ body{
     padding-top: 30px;
     background: url(../imgs/detalhe-topo.png) no-repeat right top;
     height: 150px;
-    border: 1px solid red;
 }
 
 ul{
@@ -61,4 +60,41 @@ body .menu .atual a{
 
 .menu a:hover{
     color: #69001d;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background-color: red;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background-color: yellow;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background-color: green;
+}
+
+/* rodapé */
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    color: #fff;
 }
