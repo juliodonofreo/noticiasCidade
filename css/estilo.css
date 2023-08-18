@@ -67,11 +67,28 @@ body .menu .atual a{
     background-color: #f5f5f5;
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background-color: green;
+}
+
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background-color: red;
+    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    float: left;
+    margin: 0 0 20px 0;
+
 }
 
 #secundario{
@@ -81,12 +98,6 @@ body .menu .atual a{
     background-color: yellow;
 }
 
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background-color: green;
-}
 
 /* rodapé */
 #container-rodape {
